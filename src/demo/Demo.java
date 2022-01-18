@@ -7,7 +7,6 @@ public class Demo
     {
         System.out.println("Demo One.");
         System.out.println("New changes.");
-        System.out.println("Even more numbers.");
     }
     
 }
