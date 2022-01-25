@@ -2,13 +2,21 @@ package demo;
 
 public class Demo 
 {
-    private String address = "991";
-    
+    private String address = "";
+    private String ID = "";
+    private String name = "";
     /*
     Date: Jan 25th 2022
     Author: Kyle Galway
     Comment: This is just a comment.
     */
+    
+    public Demo(String address, String ID, String name)
+    {
+        this.address = address;
+        this.ID = ID;
+        this.name = name;
+    }
 
     public String getAddress() 
     {
